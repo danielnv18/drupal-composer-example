@@ -2,14 +2,14 @@
 
 $config_directories = array();
 
-$settings['hash_salt'] = 'Igv_dxsgO4Rv-lq7r6LkaFYyHqMWsSfehG8IKqSQzDY0YxRUPOBdDzozJcnRipvozirFy3Bv3w';
+$settings['hash_salt'] = 'gSbJHYv2h_daNWck8U5d2xzmW8XIn6BFi-075eRHl0a73GPYXDCEQp1Tp-5kX6YbAcM4pMIoUA';
 
 $settings['update_free_access'] = FALSE;
 
 $settings['container_yamls'][] = __DIR__ . '/services.yml';
 
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = '../sites/default/files/config_2zodz6sQRIXS5aHULlz9LuNFadfbzKfzwh3nDL8t9NAR3dhH3WlQtm9I0AG8ebIcHtWyEma08g/sync';
+$config_directories['sync'] = '../config';
 
 /**
  * Load local development override configuration, if available.
@@ -22,5 +22,5 @@ $config_directories['sync'] = '../sites/default/files/config_2zodz6sQRIXS5aHULlz
  * Keep this code block at the end of this file to take full effect.
  */
 if (file_exists(__DIR__ . '/settings.local.php')) {
- include __DIR__ . '/settings.local.php';
+  include __DIR__ . '/settings.local.php';
 }
