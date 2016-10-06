@@ -1,0 +1,20 @@
+uuid: 0c3dcf42-7fc0-4710-94f7-b617eaae155c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal8_zymphonies_theme
+id: poweredbydrupal
+theme: drupal8_zymphonies_theme
+region: header
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
